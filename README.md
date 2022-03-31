@@ -13,11 +13,6 @@ Install packages:
 $ npm install
 ```
 
-Copy environment variables for project:
-```bash
-$ cp .env.example .env
-```
-
 ## Running the db
 
 Run docker image db with deamon:
