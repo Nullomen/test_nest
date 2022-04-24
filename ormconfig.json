@@ -1,0 +1,14 @@
+{
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "database": "example",
+    "username": "root",
+    "password": "root_password",
+    "entities": ["dist/**/*.entity.{ts,js}"],
+    "migrations": ["dist/migrations/*.{ts,js}"],
+    "migrationsTableName": "typeorm_migrations",
+    "cli": {
+        "migrationsDir": "src/migrations"
+    }
+}
